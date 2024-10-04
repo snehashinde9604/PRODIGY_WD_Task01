@@ -7,6 +7,8 @@
 body {
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
+    background-color: #022140; /* Dark bluish background color */
+    color: white; /* Text color */
 }
 
 .navbar {
@@ -54,49 +56,18 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-size: 2em;
-    color: white;
     text-align: center;
     transition: transform 0.3s;
-}
-
-.home {
-    background-color: #4CAF50;
-    background-image: url('https://via.placeholder.com/1500x800/4CAF50/FFFFFF?text=Welcome');
-    background-size: cover;
-    background-position: center;
-}
-
-.services {
-    background-color: #2196F3;
-    background-image: url('https://via.placeholder.com/1500x800/2196F3/FFFFFF?text=Our+Services');
-    background-size: cover;
-    background-position: center;
-}
-
-.about {
-    background-color: #ff9800;
-    background-image: url('https://via.placeholder.com/1500x800/ff9800/FFFFFF?text=About+Us');
-    background-size: cover;
-    background-position: center;
-}
-
-.contact {
-    background-color: #f44336;
-    background-image: url('https://via.placeholder.com/1500x800/f44336/FFFFFF?text=Contact+Us');
-    background-size: cover;
-    background-position: center;
+    padding: 20px; /* Added padding for better alignment */
 }
 
 .section:hover {
-    transform: scale(1.05);
+    transform: scale(1.02);
 }
 
-.section-image {
-    margin-top: 20px;
-    width: 300px;
-    height: auto;
-    border-radius: 10px;
+.text-container {
+    max-width: 800px; /* Limit text width for better readability */
+    margin: 0 auto; /* Center text container */
 }
 
 footer {
