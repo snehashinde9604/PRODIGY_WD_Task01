@@ -1,0 +1,76 @@
+#CSS
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    height: 100vh;
+    padding: 50px;
+    text-align: center;
+}
+
+#home {
+    background-color: #f1f1f1;
+}
+
+#about {
+    background-color: #ddd;
+}
+
+#services {
+    background-color: #bbb;
+}
+
+#contact {
+    background-color: #999;
+}
+
+/* Navbar Styles */
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #333;
+    padding: 10px 0;
+    z-index: 1000;
+    transition: background-color 0.3s ease;
+}
+
+.navbar ul {
+    list-style: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul li {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+.navbar ul li a:hover {
+    color: #FFD700; /* Gold color on hover */
+}
+
+/* Change navbar background when scrolled */
+.scrolled {
+    background-color: #222;
+}
+
+/* Responsive for smaller screens */
+@media (max-width: 768px) {
+    .navbar ul li {
+        margin: 0 10px;
+    }
+}
