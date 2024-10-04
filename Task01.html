@@ -1,42 +1,67 @@
-# HTML
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Interactive Navigation Menu</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Interactive Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
     <nav class="navbar" id="navbar">
         <ul>
             <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
             <li><a href="#services">Services</a></li>
+            <li><a href="#about">About</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
 
-    <section id="home">
-        <h1>Welcome to the Home Section</h1>
-        <p>Scroll down to see the navbar change on scroll.</p>
-    </section>
+    <div class="content">
+        <section id="home" class="section home">
+            <h1>Welcome to Our Creative Agency</h1>
+            <p>Your success is our mission. Let's create something amazing together.</p>
+        </section>
+        
+        <section id="services" class="section services">
+            <h2>Our Services</h2>
+            <p>From web development to digital marketing, we offer a wide range of services to meet your needs.</p>
+            <img src="https://via.placeholder.com/300x200" alt="Services Image" class="section-image">
+        </section>
 
-    <section id="about">
-        <h1>About Us</h1>
-        <p>This is the about section.</p>
-    </section>
+        <section id="about" class="section about">
+            <h2>About Us</h2>
+            <p>At Our Creative Agency, we are passionate about harnessing the power of technology and design to help businesses thrive in the digital age. With a team of dedicated professionals, we strive to deliver innovative solutions tailored to meet the unique needs of each client.</p>
+            
+            <h3>Our Mission</h3>
+            <p>Our mission is to empower businesses by providing them with cutting-edge web and mobile solutions that enhance their online presence and drive growth. We believe that every company deserves a strong digital footprint, and we are committed to making that happen.</p>
 
-    <section id="services">
-        <h1>Our Services</h1>
-        <p>This is the services section.</p>
-    </section>
+            <h3>Our Vision</h3>
+            <p>We envision a world where every business, regardless of size, has access to the tools and resources needed to succeed in a competitive marketplace. We aim to be a catalyst for change, driving innovation and excellence in everything we do.</p>
 
-    <section id="contact">
-        <h1>Contact Us</h1>
-        <p>This is the contact section.</p>
-    </section>
+            <h3>Our Team</h3>
+            <p>Our team is comprised of talented designers, developers, and strategists who work collaboratively to bring your ideas to life. With diverse backgrounds and expertise, we are equipped to tackle any challenge and exceed expectations. We pride ourselves on our commitment to quality and customer satisfaction.</p>
+
+            <h3>Our Values</h3>
+            <ul>
+                <li><strong>Integrity:</strong> We believe in transparency and honesty in all our dealings.</li>
+                <li><strong>Innovation:</strong> We constantly strive to push the boundaries of creativity and technology.</li>
+                <li><strong>Collaboration:</strong> We work closely with our clients to ensure their vision is realized.</li>
+                <li><strong>Excellence:</strong> We are dedicated to delivering high-quality work that exceeds expectations.</li>
+            </ul>
+            <img src="https://via.placeholder.com/300x200" alt="About Us Image" class="section-image">
+        </section>
+
+        <section id="contact" class="section contact">
+            <h2>Contact Us</h2>
+            <p>Reach out to us for collaboration or inquiries. We would love to hear from you!</p>
+            <img src="https://via.placeholder.com/300x200" alt="Contact Us Image" class="section-image">
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Your Company. All Rights Reserved.</p>
+    </footer>
 
     <script src="script.js"></script>
 </body>
